@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./.tsbuild/",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "ES6",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "types": [
+      "node",
+      "@wdio/sync",
+      "@wdio/jasmine-framework",
+      "expect-webdriverio/jasmine"
+    ],
+    "paths": {
+      "@test/*": [
+        "./src/Tests/*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ]
+    },
+    "typeRoots": [
+      "./src/types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./config/**.ts"
+  ]
+}
