@@ -1,0 +1,17 @@
+{
+  "name": "tasktwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "npm run-script build && node counter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svmsys/merck/TaskTwo"
+  },
+  "author": "Sergei Malodushev",
+  "license": "ISC"
+}
