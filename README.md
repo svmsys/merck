@@ -5,7 +5,7 @@ Go to your favorite e-shop, navigate to some category and add two
 most expensive items to the shopping cart from this category.
 Provide code from implementation.
 
-Note: Implemented based on WebDriver I/O and Jasmine.
+Note: Implemented based on WebDriver I/O and Jasmine. Chromedriver should be run on port 4444.
 
 #Task 2.
 
